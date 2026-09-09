@@ -27,13 +27,14 @@ window.W120 = {
       road:  "hotline@jra.org.za"
     },
     "City of Tshwane":   { default: "customercare@tshwane.gov.za" },
-    "City of Ekurhuleni": { default: "" },
-    "Emfuleni":          { default: "" },
-    "Midvaal":           { default: "" },
-    "Lesedi":            { default: "" },
-    "Mogale City":       { default: "" },
-    "Rand West City":    { default: "" },
-    "Merafong City":     { default: "" }
+    // Filled 2026-09-09 from each municipality's own website / official listing.
+    "City of Ekurhuleni": { default: "call.centre@ekurhuleni.gov.za" },   // call centre 0860 543 000
+    "Emfuleni":          { default: "" },                                 // no public e-mail; customer care 010 345 1640 / WhatsApp 083 434 3473
+    "Midvaal":           { default: "complaints@midvaal.gov.za" },        // call centre 087 106 2471 / 0800 228 8275
+    "Lesedi":            { default: "" },                                 // website down 9 Sept 2026; call 016 466 1900
+    "Mogale City":       { default: "customerservices@mogalecity.gov.za" }, // call centre 0861 664 253
+    "Rand West City":    { default: "" },                                 // no public e-mail; switchboard 011 411 0000, water & lights 087 238 2493
+    "Merafong City":     { default: "info@merafong.gov.za" }              // contact centre 018 788 9990
   },
 
   // Donations. Fill either (or both) to show them on the Support card:
