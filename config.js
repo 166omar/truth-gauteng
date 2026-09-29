@@ -5,6 +5,11 @@
 window.W120 = {
   // Shared backend with Fix Ward 120 — one ledger for the whole movement
   SUPABASE_URL: "https://vzwkelixolmexgfkwoif.supabase.co",
+
+  // Which site this is (saved with every report) and whose reports it lists publicly.
+  // Reports made on lenzsouth.co.za are never listed here.
+  SOURCE: "gauteng",
+  SOURCES_SHOWN: ["ward120", "gauteng"],
   SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ6d2tlbGl4b2xtZXhnZmt3b2lmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgwMTgyMjQsImV4cCI6MjEwMzU5NDIyNH0.6h8RIjnh2FIK1XVvuUYh9yOAIj-ffv9vCJKQIZZREXA",
 
   // Truth and Solidarity WhatsApp (international format, digits only)
